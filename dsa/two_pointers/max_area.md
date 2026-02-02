@@ -1,6 +1,6 @@
 # Max Area ![https://leetcode.com/problems/container-with-most-water/](LeetCode 11)
 
-## Optimized 0(n)
+## Solution O(n) — Space: O(1)
 
 ```javascript
 // nums is 1 INDEXED
@@ -35,5 +35,4 @@ function maxArea(walls) {
   }
 
   return max
-}
 ```

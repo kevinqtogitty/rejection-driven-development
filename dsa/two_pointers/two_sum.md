@@ -1,6 +1,6 @@
 # Two Sum ![https://leetcode.com/problems/two-sum/](LeetCode 1)
 
-## Brute Force 0(n^2)
+## Brute Force O(n^2) — Space: O(1)
 
 ```javascript
 function twoSum(nums, target) {
@@ -14,7 +14,7 @@ function twoSum(nums, target) {
 }
 ```
 
-## Optimized 0(n)
+## Optimized O(n) — Space: O(n)
 
 ```javascript
 function twoSum(nums, target) {

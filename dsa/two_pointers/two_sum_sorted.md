@@ -1,6 +1,6 @@
 # Two Sum Sorted ![https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/](LeetCode 167)
 
-## Optimized 0(n)
+## Solution O(n) — Space: O(1)
 
 ```javascript
 // nums is 1 INDEXED
