@@ -1,6 +1,6 @@
 # 3Sum ![https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/](LeetCode 15)
 
-## Optimized 0(n)
+## Solution O(n^2) — Space: O(1) (excluding sort and output)
 
 ```javascript
 function threeSum(nums) {
