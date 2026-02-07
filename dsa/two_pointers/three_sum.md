@@ -1,4 +1,4 @@
-# 3Sum ![https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/](LeetCode 15)
+# 3Sum ![https://leetcode.com/problems/3sum/description/](LeetCode 15)
 
 ## Solution O(n^2) — Space: O(1) (excluding sort and output)
 
