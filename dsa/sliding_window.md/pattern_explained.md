@@ -13,16 +13,18 @@ a sequence and adjusts its bounds to satisfy conditions while scanning the input
 ## Base template (variable window)
 
 ```javascript
-function minSubarrayLen(nums, target) {
-  let left = 0, sum = 0, minLen = Infinity;
-  for (let right = 0; right < nums.length; right++) {
-    sum += nums[right];
-    while (sum >= target) {
-      minLen = Math.min(minLen, right - left + 1);
-      sum -= nums[left++];
+let left = 0;
+let answer = // initialize
+
+for (let right = 0; right < arr.length; right++) {
+    // add arr[right] to window
+    
+    while (/* window is invalid */) {
+        // remove arr[left] from window
+        left++;
     }
-  }
-  return minLen === Infinity ? 0 : minLen;
+    
+    // update answer
 }
 ```
 
